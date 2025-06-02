@@ -1,2 +1,1 @@
-# annotation
-Transcript Quantification
+Transcript Quantification with Salmon
