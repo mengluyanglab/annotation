@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Go to the parent directory where the output will be saved
+cd ../
+
 # Create output directory if it doesn't exist
 mkdir -p quants
 

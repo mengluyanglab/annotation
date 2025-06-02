@@ -3,7 +3,7 @@
 start=`date +%s`
 echo $HOSTNAME
 
-outpath="References"
+outpath="../References"
 mkdir -p ${outpath}
 cd ${outpath}
 
@@ -41,7 +41,7 @@ eval $call
 
 # Clean up intermediate files
 # rm decoys.txt
-#rm gentrome.fa.gz
+# rm gentrome.fa.gz
 
 end=`date +%s`
 runtime=$((end-start))

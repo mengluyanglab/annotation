@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Go to the parent directory where the output will be saved
+cd ../
+
 # Get sample names from directory structure
 samples=$(ls -d quants/*_quant | sed 's|quants/||' | sed 's/_quant$//' | tr '\n' ' ')
 first_sample=${samples%% *}
